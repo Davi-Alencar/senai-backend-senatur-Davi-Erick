@@ -12,3 +12,17 @@ C:\Users\erick.h.apaza.conde\Desktop\projetoHojee amanha\senai-backend-senatur-D
 C:\Users\erick.h.apaza.conde\Desktop\projetoHojee amanha\senai-backend-senatur-Davi-Erick\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
 C:\Users\erick.h.apaza.conde\Desktop\projetoHojee amanha\senai-backend-senatur-Davi-Erick\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.dll
 C:\Users\erick.h.apaza.conde\Desktop\projetoHojee amanha\senai-backend-senatur-Davi-Erick\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.deps.json
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.runtimeconfig.json
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.runtimeconfig.dev.json
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.dll
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.csprojAssemblyReference.cache
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.RazorAssemblyInfo.cache
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.RazorAssemblyInfo.cs
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.AssemblyInfoInputs.cache
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.AssemblyInfo.cs
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.dll
+C:\Users\45626490892\Documents\Dev\Bancodd\Senatur\Backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.pdb
