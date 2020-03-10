@@ -27,7 +27,9 @@ região.', '28/03/2020', '01/04/2020', 1004.00, 'Bonito', 1);
 
 INSERT INTO TipoUsuarios (Titulo)
 VALUES ('Admin'), ('Comum');
+GO
 
 INSERT INTO Usuarios (Nome, Email, Senha, IdTipoUsuario)
 VALUES ('Ademir', 'admin@admin.com', 'admin', 1), 
 ('Cliente', 'cliente@cliente.com', 'cliente', 2);
+GO
