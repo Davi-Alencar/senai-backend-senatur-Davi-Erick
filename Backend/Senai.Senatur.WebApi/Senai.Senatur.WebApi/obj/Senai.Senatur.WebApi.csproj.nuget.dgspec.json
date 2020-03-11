@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj": {}
+    "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj": {
+    "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
         "projectName": "Senai.Senatur.WebApi",
-        "projectPath": "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
+        "projectPath": "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
         "packagesPath": "C:\\Users\\erick.h.apaza.conde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\erick.h.apaza.conde\\Desktop\\projetoHojee amanha\\senai-backend-senatur-Davi-Erick\\Backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
