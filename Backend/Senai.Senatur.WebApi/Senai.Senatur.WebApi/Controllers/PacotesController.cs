@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Senai.Senatur.WebApi.Domains;
 using Senai.Senatur.WebApi.Interfaces;
+using Senai.Senatur.WebApi.Repositories;
 
 namespace Senai.Senatur.WebApi.Controllers
 {
@@ -24,12 +26,18 @@ namespace Senai.Senatur.WebApi.Controllers
             _pacoteRepository = new PacoteRepository();
         }
 
+        /// <summary>
+        /// Lista os pacotes
+        /// </summary>
         [HttpGet]
         public IEnumerable<Pacotes> Get()
         {
             return _pacoteRepository.Listar();
         }
 
+        /// <summary>
+        /// Busca usuários por id
+        /// </summary>
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -43,6 +51,10 @@ namespace Senai.Senatur.WebApi.Controllers
             return Ok(pacoteBuscado);
         }
 
+        /// <summary>
+        /// Cadastra um novo usuário
+        /// </summary>
+        [Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult Post(Pacotes novoPacote)
         {
@@ -51,13 +63,15 @@ namespace Senai.Senatur.WebApi.Controllers
             return StatusCode(201);
         }
 
+        /// <summary>
+        /// Atualiza um pacote
+        /// </summary>
+        [Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public IActionResult Put(int id, Pacotes pacoteAtualizado)
         {
-            // Faz a chamada para o método
-            _pacoteRepository.Atualizar(id, pacoteAtualizado);
+            _pacoteRepository.Atualizar(pacoteAtualizado);
 
-            // Retorna um status code
             return StatusCode(204);
         }
     }

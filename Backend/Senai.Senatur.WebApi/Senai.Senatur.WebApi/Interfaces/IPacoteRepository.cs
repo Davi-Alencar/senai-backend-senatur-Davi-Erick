@@ -8,16 +8,12 @@ namespace Senai.Senatur.WebApi.Interfaces
 {
     interface IPacoteRepository
     {
+        List<Pacotes> Listar();
 
-        IEnumerable<Pacotes> ListarTodos();
-        IEnumerable<Pacotes> ListarAtivos();
-        IEnumerable<Pacotes> ListarInativos();
-        IEnumerable<Pacotes> ListarOrdenadoPorPreco();
-        Pacotes ListarPorId(int id);
+        Pacotes BuscarPorId(int id);
 
+        void Atualizar(Pacotes pacoteAtualizado);
 
-        void Atualizar(int id, Pacotes pacote);
-        void Cadastar(Pacotes pacote);
-        void Deletar(int id);
+        void Cadastrar(Pacotes pacote);
     }
 }

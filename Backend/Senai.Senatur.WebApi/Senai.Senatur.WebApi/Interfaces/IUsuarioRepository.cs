@@ -9,9 +9,9 @@ namespace Senai.Senatur.WebApi.Interfaces
     interface IUsuarioRepository
     {
 
-        IEnumerable<Usuarios> ListarTodos();
-        Usuarios ListarPorId(int id);
-        Usuarios ListarPorEmailSenha(string senha, string email);
+        List<Usuarios> Listar();
+        Usuarios BuscarPorId(int id);
+        Usuarios BuscarPorEmailSenha(string senha, string email);
 
         void Cadastrar(Usuarios CadastrarUsuario);
         void Atualizar(int id, Usuarios usuarioAtualizado);

@@ -1,4 +1,5 @@
-﻿using Senai.Senatur.WebApi.Domains;
+﻿using Microsoft.EntityFrameworkCore;
+using Senai.Senatur.WebApi.Domains;
 using Senai.Senatur.WebApi.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,14 +11,25 @@ namespace Senai.Senatur.WebApi.Repositories
     public class UsuarioRepository : IUsuarioRepository
     {
         SenaturContext ctx = new SenaturContext();
-        public void Atualizar(int id, Usuarios UsuariosAtualizados)
+
+        public void Atualizar(int id, Usuarios usuarioAtualizado)
         {
-            throw new NotImplementedException();
+            Usuarios usuarioBuscado = ctx.Usuarios.Find(id);
+
+            usuarioBuscado.Email = usuarioAtualizado.Email;
+            usuarioBuscado.Senha = usuarioAtualizado.Senha;
+            usuarioBuscado.IdTipoUsuario = usuarioAtualizado.IdTipoUsuario;
+
+            ctx.Usuarios.Update(usuarioBuscado);
+
+            ctx.SaveChanges();
         }
 
-        public Usuarios BuscarPorEmailSenha(LoginViewModel login)
+        public Usuarios BuscarPorEmailSenha(string email, string senha)
         {
-            throw new NotImplementedException();
+            var Usuario = ctx.Usuarios.FirstOrDefault(u => u.Email == email);
+            Usuario = ctx.Usuarios.FirstOrDefault(u => u.Senha == senha);
+            return (Usuario);
         }
 
         public Usuarios BuscarPorId(int id)

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senai.Senatur.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.Get">
+            <summary>
+            Lista os pacotes
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.GetById(System.Int32)">
+            <summary>
+            Busca usuários por id
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.Post(Senai.Senatur.WebApi.Domains.Pacotes)">
+            <summary>
+            Cadastra um novo usuário
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.PacotesController.Put(System.Int32,Senai.Senatur.WebApi.Domains.Pacotes)">
+            <summary>
+            Atualiza um pacote
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.UsuariosController.BuscarComTipo">
+            <summary>
+            Busca usuário c/ tipo
+            </summary>
+        </member>
+        <member name="M:Senai.Senatur.WebApi.Controllers.UsuariosController.Post(Senai.Senatur.WebApi.Domains.Usuarios)">
+            <summary>
+            Realiza e valida o login o login
+            </summary>
+        </member>
+    </members>
+</doc>
