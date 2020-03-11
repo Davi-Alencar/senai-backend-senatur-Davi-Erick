@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Senai.Senatur.WebApi.Domains;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,24 +8,14 @@ namespace Senai.Senatur.WebApi.Interfaces
 {
     interface IUsuarioRepository
     {
-        /// <summary>
-        /// Cadastra um novo usuário
-        /// </summary>
-        /// <param name="novoUsuario">Objeto novoUsuario que será cadastrado</param>
-        void Cadastrar(Usuarios novoUsuario);
 
-        /// <summary>
-        /// Atualiza um usuário existente
-        /// </summary>
-        /// <param name="id">ID do usuário que será atualizado</param>
-        /// <param name="usuarioAtualizado">Objeto com as novas informações</param>
+        IEnumerable<Usuarios> ListarTodos();
+        Usuarios ListarPorId(int id);
+        Usuarios ListarPorEmailSenha(string senha, string email);
+
+        void Cadastrar(Usuarios CadastrarUsuario);
         void Atualizar(int id, Usuarios usuarioAtualizado);
-
-        /// <summary>
-        /// Lista todos os usuários
-        /// </summary>
-        /// <returns>Uma lista de usuários</returns>
-        List<Usuarios> Listar();
+        void Deletar(int id);
 
     }
 }
