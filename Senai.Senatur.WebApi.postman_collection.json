@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "fc7dabb0-c643-4163-982e-f2761b74904b",
+		"name": "Senai.Senatur.WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar todos os usuários",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Login",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Listar Pacotes",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Buscar por id;",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Cadastrar Pacote",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Alterar Pacote",
+			"item": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
