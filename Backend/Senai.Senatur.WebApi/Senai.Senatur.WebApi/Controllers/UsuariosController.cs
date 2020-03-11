@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Senai.Senatur.WebApi.Domains;
+using Senai.Senatur.WebApi.Interfaces;
 
 namespace Senai.Senatur.WebApi.Controllers
 {
@@ -12,6 +14,7 @@ namespace Senai.Senatur.WebApi.Controllers
     [Route("api/[controller]")]
 
     [ApiController]
+
     public class UsuariosController : ControllerBase
     {
         private IUsuarioRepository _usuarioRepository;
@@ -22,10 +25,12 @@ namespace Senai.Senatur.WebApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult BuscarComTipo()
         {
             return Ok(_usuarioRepository.Listar());
         }
+
+
     }
 }
 
