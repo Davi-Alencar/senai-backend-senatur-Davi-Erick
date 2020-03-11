@@ -24,6 +24,11 @@ namespace Senai.Senatur.WebApi
                 // Adiciona o MVC ao projeto
                 .AddMvc()
 
+            .AddJsonOptions(
+            options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+        )
+
+
                 // Define a versão do .NET Core
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
 
@@ -52,16 +57,16 @@ namespace Senai.Senatur.WebApi
                         ValidateLifetime = true,
 
                         // Forma de criptografia
-                        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("InLock-chave-autenticacao")),
+                        IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("senatur-chave-autenticacao")),
 
                         // Tempo de expiração do token
                         ClockSkew = TimeSpan.FromMinutes(30),
 
                         // Nome da issuer, de onde está vindo
-                        ValidIssuer = "InLock.WebApi",
+                        ValidIssuer = "Senatur.WebApi",
 
                         // Nome da audience, de onde está vindo
-                        ValidAudience = "InLock.WebApi"
+                        ValidAudience = "Senatur.WebApi"
                     };
                 });
 
@@ -91,7 +96,7 @@ namespace Senai.Senatur.WebApi
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Senai.InLock.WebApi");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Senai.Senatur.WebApi");
                 c.RoutePrefix = string.Empty;
             });
 

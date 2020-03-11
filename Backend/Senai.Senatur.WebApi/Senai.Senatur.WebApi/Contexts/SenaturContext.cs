@@ -23,9 +23,9 @@ namespace Senai.Senatur.WebApi.Domains
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=WIN-T3EDO5059sQ\\SQLEXPRESS; Initial Catalog= Senatur_Tarde; Integrated Security=True");
-            }
-        }
+                optionsBuilder.UseSqlServer("Data Source=WIN-T3EDO5059Q\\SQLEXPRESS; Initial Catalog=Senatur_Tarde; Integrated Security=True");
+            }  
+        }           
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
